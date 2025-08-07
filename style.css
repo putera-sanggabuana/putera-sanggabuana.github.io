@@ -1,53 +1,43 @@
-
-    body {
-	margin: 0;
-	font-family: Arial, sans-serif;
-	background: #d6eff4;
-}
-.navbar{
-	background: #212121;
-	margin: 0;
-	padding: 20px 30px;
-}
- 
-.logo{
-	font-size: 14pt;
-	font-weight: bold;
-	text-decoration: none;
-	color: white;
-}
- 
-.container{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
- 
-.tombol{
-	display: none;
-	color: white;
-	font-size: 14pt;			
-}
- 
-.tombol:hover{
-	cursor: pointer;
-}
- 
-.menu{
-	margin: 0;
-	display: flex;
-	list-style: none;
-	padding: 0;			
-}
- 
-.menu li{
-	padding-left: 0;
-	margin-right: 10px;
-}
- 
-.menu li a{
-	padding:10px;
-	color: white;
-	text-decoration: none;
-	display: inline-block;
-}
+ body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .produk {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            float: left;
+        }
+        .produk img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            clear: both;
+        }
