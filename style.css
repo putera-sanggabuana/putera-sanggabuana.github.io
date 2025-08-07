@@ -25,8 +25,8 @@
         }
         .produk {
             border: 1px solid #ddd;
-            margin: 100px;
-            padding: 20px;
+            align: center;
+            padding: 15px;
             width: 50%;
             float: left;
         }
@@ -41,6 +41,7 @@
             padding: 10px 0;
             clear: both;
         }
+
 
 
 
