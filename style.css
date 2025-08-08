@@ -11,10 +11,13 @@
 body {
     width: 90%; /* Lebar body menjadi 75% dari lebar layar */
         }
-.container {
-    text-align: center;
-    display: inline-block;
+.myimage {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
       }
+
 
 
 
