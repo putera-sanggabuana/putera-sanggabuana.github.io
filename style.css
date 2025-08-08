@@ -9,6 +9,7 @@
     /* Responsive Design dengan Media Queries */
 @media (max-width: 600px) {
   body {
-    width: 50%; /* Lebar body menjadi 75% dari lebar layar */
+    width: 90%; /* Lebar body menjadi 75% dari lebar layar */
 
   }
+
